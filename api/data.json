@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "proImg": "/images/shop/1.jpg",
+    "slug":"Wall-Flange",
+    "title": "Wall Flange",
+    "price": "200",
+    "delPrice": "380",
+    "sqm":"52",
+    "bedroom":"2",
+    "bathroom":"1",
+    "capacity":"2",
+    "Children":"6"
+  },
+  {
+    "id": 2,
+    "proImg": "/images/shop/2.jpg",
+    "slug":"Mixing-Valves",
+    "title": "Mixing Valves",
+    "price": "250",
+    "delPrice": "380",
+    "sqm":"70",
+    "bedroom":"2",
+    "bathroom":"1",
+    "capacity":"2",
+    "Children":"3"
+  },
+  {
+    "id": 3,
+    "proImg": "/images/shop/3.jpg",
+    "slug":"Menards-Plumbing",
+    "title": "Menards Plumbing",
+    "price": "230",
+    "sqm":"82",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"3",
+    "Children":"5"
+  },
+  {
+    "id": 4,
+    "proImg": "/images/shop/4.jpg",
+    "slug":"Fittings-Clipped",
+    "title": "Fittings Clipped",
+    "price": "280",
+    "sqm":"45",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"3",
+    "Children":"2"
+  },
+  {
+    "id": 5,
+    "proImg": "/images/shop/5.jpg",
+    "slug":"Compression",
+    "title": "Compression",
+    "price": "260",
+    "sqm":"55",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "280",
+    "capacity":"2",
+    "Children":"6"
+  },
+  {
+    "id": 6,
+    "proImg": "/images/shop/6.jpg",
+    "slug":"Dorper-Elbow",
+    "title": "Dorper Elbow",
+    "price": "200",
+    "sqm":"85",
+    "bedroom":"2",
+    "bathroom":"1",
+    "delPrice": "380",
+    "capacity":"2",
+    "Children":"6"
+  }
+]

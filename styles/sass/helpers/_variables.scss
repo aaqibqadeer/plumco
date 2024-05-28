@@ -1,0 +1,57 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../../../fonts/text-font/Muli.ttf') format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Muli Regular'), url('../../../fonts/text-font/Muli-Regular.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Muli SemiBold'), url('../../../fonts/text-font/Muli-SemiBold.woff') format('woff');
+    }
+    
+    @font-face {
+    font-family: 'Muli';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Muli Bold'), url('../../../fonts/text-font/Muli-Bold.woff') format('woff');
+    }
+
+// fonts
+$base-font-size: 15;
+$base-font: 'Muli';
+$heading-font: 'Manrope', sans-serif;
+
+
+
+
+// color
+$dark-gray: #253041;
+$body-color: #4c5165;
+$white: #fff;
+$light: #8188a9;
+$black: #000;
+$cyan: #848892;
+$small-black:#444;
+
+$theme-primary-color: #0052da;
+$body-bg-color: #fff;
+$section-bg-color: #f5f8fe;
+$text-color: #6e6e6e;
+$text-light-color: #2c3147;
+$heading-color: $dark-gray;
+$border-color: #e1e1e1;
+$border-color-s2: #d8e0f1;
