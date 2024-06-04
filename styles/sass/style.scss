@@ -4,7 +4,6 @@ Theme Name:     Plumco - Plumber Service Next js Template
 Version:        1.0.0
 -------------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -56,70 +55,93 @@ Version:        1.0.0
 
 ----------------------------------------------------------------*/
 
-
 /*------------------------------------------------------------------
 1. General
 ----------------------------------------------------------------*/
 
 // helpers
-@import "helpers/variables";
-@import "helpers/mixins";
+@import 'helpers/variables';
+@import 'helpers/mixins';
 
 // base
-@import "base/base";
-
+@import 'base/base';
 
 // components
-@import "components/section-title";
-@import "components/buttons";
-@import "components/form";
-@import "components/social-links";
-@import "components/page-title";
-@import "components/preloader";
-@import "components/blog-sidebar";
-@import "components/pagination";
+@import 'components/section-title';
+@import 'components/buttons';
+@import 'components/form';
+@import 'components/social-links';
+@import 'components/page-title';
+@import 'components/preloader';
+@import 'components/blog-sidebar';
+@import 'components/pagination';
 
 // layout
-@import "layout/header";
-@import "layout/hero-slider";
-@import "layout/footer";
+@import 'layout/header';
+@import 'layout/hero-slider';
+@import 'layout/footer';
 
 // components
-@import "components/sticky-header";
-
+@import 'components/sticky-header';
 
 // page
-@import "page/home-default";
+@import 'page/home-default';
 
-@import "page/_home-style2";
+@import 'page/_home-style2';
 
-@import "page/_about";
+@import 'page/_about';
 
-@import "page/_service";
+@import 'page/_service';
 
-@import "page/_project";
+@import 'page/_project';
 
-@import "page/_pricing";
+@import 'page/_pricing';
 
-@import "page/_team";
+@import 'page/_team';
 
-@import "page/_terms";
+@import 'page/_terms';
 
-@import "page/_cart";
+@import 'page/_cart';
 
-@import "page/_checkout";
+@import 'page/_checkout';
 
-@import "page/_shop";
+@import 'page/_shop';
 
-@import "page/_shop-single";
+@import 'page/_shop-single';
 
-@import "page/_blog";
+@import 'page/_blog';
 
-@import "page/_blog-single";
+@import 'page/_blog-single';
 
-@import "page/_contact";
+@import 'page/_contact';
 
-@import "page/_error-404";
+@import 'page/_error-404';
 
+.img-size {
+  object-fit: cover;
+  object-position: top;
+  height: 238.33px;
+}
 
+.service-list {
+  color: #4887d8;
+  padding-left: 10px;
+  font-size: 18px;
+  line-height: 1.8;
+  list-style-type: disclosure-closed;
+}
+.service-item {
+  color: #4887d8;
+  padding-left: 10px;
+  //   font-size: 18px;
+  line-height: 1.8;
+  list-style-type: disclosure-closed;
+}
 
+.about__list h3 {
+  margin-top: 32px;
+}
+
+.why-choose-us ul li {
+  color: rgb(39, 39, 39);
+}
