@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ContactForm from '../ContactFrom/ContactForm'
 import { strings } from '../../data/strings'
 
