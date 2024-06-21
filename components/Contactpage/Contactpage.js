@@ -1,7 +1,37 @@
 import React from 'react'
 import ContactForm from '../ContactFrom/ContactForm'
+import { strings } from '../../data/strings'
 
 const Contactpage = () => {
+  const [name, setName] = useState('')
+  const [message, setMessage] = useState('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    const templateParams = {
+      from_name: name,
+      message_html: message,
+      to_email: 'your_email@example.com', // Replace with your email address
+    }
+
+    emailjs
+      .send(
+        'service_id', // Replace with your ServiceID
+        'template_id', // Replace with your TemplateID
+        templateParams,
+        'your_public_key', // Replace with your PublicKey
+      )
+      .then((response) => {
+        console.log('Email sent successfully!', response.status, response.text)
+        setName('')
+        setMessage('')
+      })
+      .catch((error) => {
+        console.error('Failed to send email:', error)
+      })
+  }
+
   return (
     <section className='wpo-contact-pg-section section-padding'>
       <div className='container'>
@@ -18,7 +48,7 @@ const Contactpage = () => {
                     </div>
                     <div className='office-info-text'>
                       <h2>Address</h2>
-                      <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                      <p>{strings.location}</p>
                     </div>
                   </div>
                 </div>
@@ -32,7 +62,6 @@ const Contactpage = () => {
                     <div className='office-info-text'>
                       <h2>Email Us</h2>
                       <p>Plumco@gmail.com</p>
-                      <p>helloyou@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -45,8 +74,7 @@ const Contactpage = () => {
                     </div>
                     <div className='office-info-text'>
                       <h2>Call Now</h2>
-                      <p>+1 800 123 456 789</p>
-                      <p>+1 800 123 654 987</p>
+                      <p>{strings.contact}</p>
                     </div>
                   </div>
                 </div>

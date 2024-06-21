@@ -145,3 +145,32 @@ Version:        1.0.0
 .why-choose-us ul li {
   color: rgb(39, 39, 39);
 }
+.office-info-item {
+  min-height: 300px;
+}
+
+.logo-img {
+  max-width: 100px;
+  padding: 10px 0px;
+}
+.logo-img-footer {
+  max-width: 200px;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 991px) {
+  .wpo-hero-section-text {
+    text-align: center;
+    text-shadow: 0 0 3px #ffffff, 0 0 1px #ffffff;
+  }
+  .wpo-hero-section-1 {
+    background: url(/images/slider/slider-1-mobile.webp) no-repeat right center /
+      cover;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wpo-fun-fact-section.section-padding {
+    display: none;
+  }
+}

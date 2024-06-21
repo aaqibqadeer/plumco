@@ -1,6 +1,8 @@
 export const strings = {}
 
 strings.title = ''
+strings.location = '1101 Opal Ct, Hagerstown, MD 21740'
+strings.contact = '+1 (240) 576-0397'
 
 const servicesObject = {
   home: {

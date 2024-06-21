@@ -16,7 +16,7 @@ const Header = (props) => {
 
   return (
     <header id='header' className={props.topbarNone}>
-      <HeaderTopbar />
+      {/* <HeaderTopbar /> */}
       <div className={`wpo-site-header ${props.hclass}`}>
         <nav className='navigation navbar navbar-expand-lg navbar-light'>
           <div className='container'>
@@ -33,7 +33,7 @@ const Header = (props) => {
                     href='/'
                     className='navbar-brand'
                   >
-                    <img src='/images/logo.png' alt='' />
+                    <img src='/images/logo.png' alt='' className='logo-img' />
                   </Link>
                 </div>
               </div>
@@ -238,7 +238,7 @@ const Header = (props) => {
                   </ul>
                 </div>
               </div>
-              <div className='col-lg-2 col-md-2 col-2'>
+              {/* <div className='col-lg-2 col-md-2 col-2'>
                 <div className='header-right'>
                   <div className='header-search-form-wrapper'>
                     <div className='cart-search-contact'>
@@ -283,7 +283,7 @@ const Header = (props) => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </nav>

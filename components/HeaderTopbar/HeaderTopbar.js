@@ -7,14 +7,14 @@ const HeaderTopbar = () => {
         <div className='row'>
           <div className='col col-lg-7 col-md-5 col-sm-12 col-12'>
             <div className='contact-intro'>
-              <ul>
+              {/* <ul>
                 <li>
                   <i>
                     <img src='/images/icon/1.png' alt='' />
                   </i>
                   Sun - Fri || 8:00 - 7:00
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className='col col-lg-5 col-md-7 col-sm-12 col-12'>
